@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+<h1>Client</h1>
+	<script type="text/javascript">
+		var xhr = new XMLHttpRequest;
+		xhr.open("GET", "/formation-php/web/api/channel?channel=24");
+		xhr.setRequestHeader('Accept', 'application/json');
+		xhr.setRequestHeader("Content-Type","application/x-www-form-urlencoded"); // toujours dans le cas d'utilisation d'un POST
+		xhr.send("message=??dd");	 //on ajoute un argument à send lors d'un POST!
+	</script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

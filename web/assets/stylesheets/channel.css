@@ -1,0 +1,52 @@
+.channel-frame {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    height: 100%;
+    box-sizing: border-box;
+    padding-top: 3.5em;
+}
+.channel-frame section {
+    height: 100%;
+    box-sizing: border-box;
+    position: relative;
+    padding: 0 !important;
+}
+#textarea {
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 3.5em;
+    left: 2.5%;
+    width: 95%;
+}
+#messages {
+    box-sizing: border-box;
+    padding: 0 !important;
+    list-style-type: none;
+    position: absolute;
+    bottom: 10em;
+    top: 5em;
+    left: 2.5%;
+    width: 95%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#messages li {
+    box-sizing: border-box;
+    background: white;
+    display: inline-block;
+    color: black;
+    padding: 1em 2em 1em 1em;
+    margin: .5em;
+    border-radius: 1em;
+}
+#messages li em {
+    box-sizing: border-box;
+    color: white !important;
+    display: inline-block;
+    color: black;
+    padding: .5em;
+    margin: .25em;
+    border-radius: 50%;
+}
